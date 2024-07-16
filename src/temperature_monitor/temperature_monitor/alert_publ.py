@@ -17,12 +17,10 @@ class AlertPublisherNode(Node):
         self.get_logger().info("Alert published")
 
 def main(args=None):
+   
     rclpy.init(args=args)
-
     alert_publisher_node = AlertPublisherNode()
-
     rclpy.spin(alert_publisher_node)
-
     rclpy.shutdown()
 
 if __name__ == "__main__":
