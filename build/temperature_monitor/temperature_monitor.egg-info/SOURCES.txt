@@ -8,8 +8,13 @@ setup.py
 ../../build/temperature_monitor/temperature_monitor.egg-info/requires.txt
 ../../build/temperature_monitor/temperature_monitor.egg-info/top_level.txt
 ../../build/temperature_monitor/temperature_monitor.egg-info/zip-safe
+launch/temp.launch.py
 resource/temperature_monitor
 temperature_monitor/__init__.py
+temperature_monitor/alert_publ.py
+temperature_monitor/logging_temp.py
+temperature_monitor/temp_publisher.py
+temperature_monitor/threshold_sub.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

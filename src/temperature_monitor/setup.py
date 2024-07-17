@@ -1,3 +1,5 @@
+import os
+from glob import glob
 from setuptools import find_packages, setup
 
 package_name = 'temperature_monitor'
@@ -10,6 +12,8 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        (os.path.join('share', package_name, 'launch/'),
+         glob('launch/*launch.[pxy][yma]*')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -20,6 +24,11 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+        	'temp_pubNode= temperature_monitor.temp_publisher:main',
+        	'alert_node=temperature_monitor.alert_publ:main',
+        	'threshold_node=temperature_monitor.threshold_sub:main'
+        
+        
         ],
     },
 )
