@@ -12,8 +12,8 @@ launch/temp.launch.py
 resource/temperature_monitor
 temperature_monitor/__init__.py
 temperature_monitor/alert_publ.py
-temperature_monitor/logging_temp.py
 temperature_monitor/temp_publisher.py
+temperature_monitor/temperature_logger.py
 temperature_monitor/threshold_sub.py
 test/test_copyright.py
 test/test_flake8.py

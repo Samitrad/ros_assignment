@@ -1,0 +1,24 @@
+[0.346s] Invoking command in '/home/sami/Documents/ros_assignment/src/temperature_monitor': PYTHONPATH=/home/sami/Documents/ros_assignment/build/temperature_monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sami/Documents/ros_assignment/install/temperature_monitor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/temperature_monitor build --build-base /home/sami/Documents/ros_assignment/build/temperature_monitor/build install --record /home/sami/Documents/ros_assignment/build/temperature_monitor/install.log --single-version-externally-managed install_data
+[0.483s] running egg_info
+[0.483s] writing ../../build/temperature_monitor/temperature_monitor.egg-info/PKG-INFO
+[0.483s] writing dependency_links to ../../build/temperature_monitor/temperature_monitor.egg-info/dependency_links.txt
+[0.483s] writing entry points to ../../build/temperature_monitor/temperature_monitor.egg-info/entry_points.txt
+[0.484s] writing requirements to ../../build/temperature_monitor/temperature_monitor.egg-info/requires.txt
+[0.484s] writing top-level names to ../../build/temperature_monitor/temperature_monitor.egg-info/top_level.txt
+[0.485s] reading manifest file '../../build/temperature_monitor/temperature_monitor.egg-info/SOURCES.txt'
+[0.485s] writing manifest file '../../build/temperature_monitor/temperature_monitor.egg-info/SOURCES.txt'
+[0.485s] running build
+[0.485s] running build_py
+[0.485s] running install
+[0.486s] running install_lib
+[0.486s] running install_data
+[0.486s] running install_egg_info
+[0.487s] removing '/home/sami/Documents/ros_assignment/install/temperature_monitor/lib/python3.10/site-packages/temperature_monitor-0.0.0-py3.10.egg-info' (and everything under it)
+[0.487s] Copying ../../build/temperature_monitor/temperature_monitor.egg-info to /home/sami/Documents/ros_assignment/install/temperature_monitor/lib/python3.10/site-packages/temperature_monitor-0.0.0-py3.10.egg-info
+[0.488s] running install_scripts
+[0.500s] Installing alert_node script to /home/sami/Documents/ros_assignment/install/temperature_monitor/lib/temperature_monitor
+[0.500s] Installing logging_temp script to /home/sami/Documents/ros_assignment/install/temperature_monitor/lib/temperature_monitor
+[0.500s] Installing temp_pubNode script to /home/sami/Documents/ros_assignment/install/temperature_monitor/lib/temperature_monitor
+[0.501s] Installing threshold_node script to /home/sami/Documents/ros_assignment/install/temperature_monitor/lib/temperature_monitor
+[0.501s] writing list of installed files to '/home/sami/Documents/ros_assignment/build/temperature_monitor/install.log'
+[0.515s] Invoked command in '/home/sami/Documents/ros_assignment/src/temperature_monitor' returned '0': PYTHONPATH=/home/sami/Documents/ros_assignment/build/temperature_monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sami/Documents/ros_assignment/install/temperature_monitor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/temperature_monitor build --build-base /home/sami/Documents/ros_assignment/build/temperature_monitor/build install --record /home/sami/Documents/ros_assignment/build/temperature_monitor/install.log --single-version-externally-managed install_data

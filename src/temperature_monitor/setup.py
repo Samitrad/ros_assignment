@@ -26,8 +26,8 @@ setup(
         'console_scripts': [
         	'temp_pubNode= temperature_monitor.temp_publisher:main',
         	'alert_node=temperature_monitor.alert_publ:main',
-        	'threshold_node=temperature_monitor.threshold_sub:main'
-        
+        	'threshold_node=temperature_monitor.threshold_sub:main',
+        	'logging_temp=temperature_monitor.temperature_logger:main'
         
         ],
     },

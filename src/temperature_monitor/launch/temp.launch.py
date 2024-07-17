@@ -19,9 +19,16 @@ def generate_launch_description():
         name='alert_publisher'
     )
 
+    logging_node = Node(
+    package='temperature_monitor',
+    executable='logging_temp', 
+    name='logging_temp'
+    )
+	
     
     return launch.LaunchDescription([
         temp_publisher_node,
         threshold_subscriber_node,
-        alert_publisher_node
+        alert_publisher_node,
+        logging_node
     ])

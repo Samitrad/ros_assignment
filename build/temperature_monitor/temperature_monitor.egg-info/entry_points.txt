@@ -1,5 +1,6 @@
 [console_scripts]
 alert_node = temperature_monitor.alert_publ:main
+logging_temp = temperature_monitor.temperature_logger:main
 temp_pubNode = temperature_monitor.temp_publisher:main
 threshold_node = temperature_monitor.threshold_sub:main
 
